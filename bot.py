@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import os
 import nonebot
 from nonebot.adapters.cqhttp import Bot as CQHTTPBot
 
@@ -23,6 +24,7 @@ driver.register_adapter("cqhttp", CQHTTPBot)
 
 nonebot.load_plugins("xyzbot/plugins")
 nonebot.load_plugin("nonebot_plugin_status")
+os.startfile(r'D:/xyzbot/xyzbot/go-cqhttp-v0.9.40-windows-amd64.exe')
 
 # Modify some config / config depends on loaded configs
 # 
