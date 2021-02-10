@@ -21,7 +21,7 @@ app = nonebot.get_asgi()
 
 driver = nonebot.get_driver()
 driver.register_adapter("cqhttp", CQHTTPBot)
-os.startfile(r'D:/xyzbot/xyzbot/go-cqhttp-v0.9.40-windows-amd64.exe')
+os.startfile(r'go-cqhttp-v0.9.40-windows-amd64.exe')
 
 nonebot.load_plugins("xyzbot/plugins")
 nonebot.load_plugin("nonebot_plugin_status")
